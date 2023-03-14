@@ -1,7 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    base
+    `java-library`
     kotlin("jvm") version "1.7.21"
+    id("com.github.spotbugs") version "4.3.0"
 }
 
 group = "org.example"
