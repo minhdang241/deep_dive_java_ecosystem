@@ -5,6 +5,7 @@ plugins {
     `java-library`
     kotlin("jvm") version "1.7.21"
     id("com.github.spotbugs") version "4.3.0"
+    id ("distribution")
 }
 
 group = "org.example"
